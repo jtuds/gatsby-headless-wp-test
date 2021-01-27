@@ -1,4 +1,12 @@
-- Render blog posts on to homepage
-- Create case study custom post type
-- Render case studies on to home page
+- Create case study custom post type @done
+- Render case studies on to home page @done
+- Render case studies single pages (currently 404) @done
 - Split homepage into components
+- Create some blogs for the homepage to display - maybe 4 boxes
+- Create nice blog lister
+- Create case studies lister
+- Add to Bitbucket
+- Deploy backend to public server so data can be accessed
+- Deploy frontend to public server
+- Lockdown backend to only requests from me
+- Start slide deck with notes from my learnings (all peoples notes to go into here)

@@ -6,15 +6,14 @@ import Img from "gatsby-image"
 import Layout from "../../components/layout"
 import { normalizePath } from "../../utils/get-url-path"
 
-function BlogPost({ data }) {
-  console.log(data);
+function CaseStudyPost({ data }) {
   const { nextPage, previousPage, page } = data
   const { title, content, featuredImage } = page
 
   return (
     <Layout>
       <Heading as="h1" size="xl" mb={5}>
-        {title}
+        {title} I AM CASE STUDY
       </Heading>
 
       {!!featuredImage?.node?.localFile?.childImageSharp && (
@@ -39,4 +38,4 @@ function BlogPost({ data }) {
   )
 }
 
-export default BlogPost
+export default CaseStudyPost
