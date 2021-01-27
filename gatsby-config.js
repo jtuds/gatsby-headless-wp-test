@@ -27,6 +27,12 @@ module.exports = {
         develop: {
           hardCacheMediaFiles: true,
         },
+        auth: {
+          htaccess: {
+            username: process.env.HTTPBASICAUTH_USERNAME,
+            password: process.env.HTTPBASICAUTH_PASSWORD,
+          }
+        },
         debug: {
           graphql: {
             writeQueriesToDisk: true,
